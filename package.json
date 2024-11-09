@@ -1,0 +1,24 @@
+{
+  "name": "someLangchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "embedding": "ts-node embedding.ts",
+    "faiss": "ts-node faiss.ts",
+    "load": "ts-node loadFaiss.ts"
+  },
+  "author": "nk",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/community": "^0.3.10",
+    "@langchain/ollama": "^0.1.0",
+    "commitlint": "^19.5.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "faiss-node": "^0.5.1",
+    "langchain": "^0.3.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}

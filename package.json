@@ -9,6 +9,8 @@
     "embedding": "ts-node embedding.ts",
     "faiss": "ts-node faiss.ts",
     "load": "ts-node loadFaiss.ts",
+    "history": "ts-node history.ts",
+    "memory": "ts-node memory.ts",
     "prepare": "husky"
   },
   "author": "nk",

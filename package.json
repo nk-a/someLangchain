@@ -11,6 +11,7 @@
     "load": "ts-node loadFaiss.ts",
     "history": "ts-node history.ts",
     "memory": "ts-node memory.ts",
+    "function": "ts-node functionCalling.ts",
     "prepare": "husky"
   },
   "author": "nk",
